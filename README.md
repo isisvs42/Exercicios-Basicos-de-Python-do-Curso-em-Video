@@ -75,4 +75,4 @@ pip install emoji requests pygame
 
 Este repositório representa minha base inicial em programação e marca o início da minha trajetória na área de Computação, demonstrando evolução progressiva na aplicação de conceitos fundamentais.
 
-Quer deixar seu GitHub com cara de portfólio competitivo?
+Parte dos comentários no código foi utilizada como ferramenta de apoio ao aprendizado, servindo como registro conceitual e reforço dos conteúdos estudados.
