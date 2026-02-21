@@ -2,7 +2,7 @@
 
 ## 📌 Visão Geral
 
-Este repositório reúne exercícios desenvolvidos durante o **Curso de Python – Curso em Vídeo**, realizados alguns meses antes do início da minha graduação.
+Este repositório reúne exercícios desenvolvidos durante os estudos do **Curso de Python do Curso em Vídeo**, realizados alguns meses antes do início da minha graduação.
 
 O objetivo foi fortalecer minha base em **lógica de programação** e consolidar os fundamentos da linguagem Python, criando uma preparação sólida para o ingresso no ensino superior em Computação.
 
