@@ -2,11 +2,9 @@
 
 ## 📌 Visão Geral
 
-Este repositório reúne exercícios desenvolvidos durante os estudos do **Curso de Python do Curso em Vídeo**, realizados alguns meses antes do início da minha graduação.
+Este repositório reúne exercícios desenvolvidos durante o **Curso de Python – Curso em Vídeo**, realizados alguns meses antes do início da minha graduação.
 
 O objetivo foi fortalecer minha base em **lógica de programação** e consolidar os fundamentos da linguagem Python, criando uma preparação sólida para o ingresso no ensino superior em Computação.
-
-Esse período de estudo foi estratégico para desenvolver autonomia, disciplina e familiaridade com conceitos essenciais da programação.
 
 ---
 
@@ -23,8 +21,6 @@ Esse período de estudo foi estratégico para desenvolver autonomia, disciplina 
 
 ## 📚 Estrutura de Conteúdo
 
-Os exercícios seguem a organização didática do curso:
-
 ### 🔹 Mundo 1 — Fundamentos da Linguagem
 
 * Sintaxe básica e primeiros programas
@@ -35,16 +31,11 @@ Os exercícios seguem a organização didática do curso:
 * Manipulação de strings
 * Estruturas condicionais
 
----
-
 ### 🔹 Mundo 2 — Estruturas de Controle
 
 * Condições simples e compostas
 * Estruturas de repetição (`for` e `while`)
 * Controle de fluxo
-* Aplicação prática de lógica computacional
-
----
 
 ### 🔹 Mundo 3 — Estruturas de Dados e Organização de Código
 
@@ -57,16 +48,31 @@ Os exercícios seguem a organização didática do curso:
 
 ---
 
-## 🧠 Competências Desenvolvidas
+## ⚙️ Requisitos e Execução
 
-* Pensamento lógico aplicado à resolução de problemas
-* Organização e clareza na escrita de código
-* Uso adequado de estruturas de dados
-* Construção de funções reutilizáveis
-* Estruturação progressiva de soluções
+Para execução de alguns exercícios, foi criado um ambiente virtual (`.venv`) para instalação de bibliotecas externas utilizadas ao longo do curso, como:
+
+* `emoji`
+* `requests`
+* `pygame`
+
+Recomenda-se criar um ambiente virtual antes da execução:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # Linux/macOS
+```
+
+Instalar dependências necessárias:
+
+```bash
+pip install emoji requests pygame
+```
 
 ---
 
 ## 🚀 Considerações Finais
 
-Este repositório representa minha base inicial em programação e marca o início da minha trajetória na área de Computação. Ele demonstra a evolução desde os primeiros contatos com a linguagem até a aplicação estruturada de conceitos fundamentais.
+Este repositório representa minha base inicial em programação e marca o início da minha trajetória na área de Computação, demonstrando evolução progressiva na aplicação de conceitos fundamentais.
+
+Quer deixar seu GitHub com cara de portfólio competitivo?
