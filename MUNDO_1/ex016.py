@@ -8,6 +8,6 @@ from math import trunc
 n = float(input('Digite um número qualquer: '))
 print(f'A parte inteira de {n} é {trunc(n)}')
 
-# Você também pode utilizar a função int():
+# Também pode utilizar a função int():
 # m = float(input('Digite um número qualquer: '))
 # print(f'A parte inteira de {m} é {int(m)}')
