@@ -8,7 +8,6 @@ from rich import print
 class Caneta():
     def __init__(self, cor):
         cor = cor.lower().strip()
-
         if cor == 'verde':
             self.cor = 'green'
 
@@ -19,8 +18,7 @@ class Caneta():
             self.cor = 'blue'
 
         else:
-            self.cor = cor
-            print(f'Cor indisponível: {self.cor}')
+            print('Cor indisponível')
 
         self.tampada = True
 
@@ -29,31 +27,17 @@ class Caneta():
 
     def quebrar_linha(self, linhas):
         for linha in range(linhas):
-            print('\n', end='')
+            print('\n')
 
     def escrever(self, frase):
-        if self.cor not in ['red', 'green', 'blue']:
-            print(f"Não dá para escrever com uma caneta insdisponível: {self.cor}")
-
-        elif not self.tampada:
-            print(f'[{self.cor}]{frase}[/]')
+        if not self.tampada:
+            print(f'[{self.cor}]{frase}[/]', end='')
 
         else:
             print(f'A [{self.cor}]caneta[/] está tampada!')
 
-c1 = Caneta('preta')
 
-c2 = Caneta('azul')
-c3 = Caneta('vermelho')
-c4 = Caneta(' VerdE')
-
-# c1.destampar()
-c2.destampar()
-c3.destampar()
-
-c1.escrever('Olá, Mundo!')
-c1.quebrar_linha(2)
-
-c4.escrever('Aquele colégio é muito além do ensino')
-c2.escrever('Coelhos possuem orelhas compridas')
-c3.escrever('Cada passo é essencial para a vida!')
+c1 = Caneta('azul')
+c2 = Caneta('vermelha')
+c3 = Caneta('verde')
+c4 = Caneta('preta')
