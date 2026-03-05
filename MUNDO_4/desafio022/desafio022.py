@@ -7,6 +7,7 @@ volume e liga/desliga)
 < e > = avançar/voltar nos canais
 + e - = aumentar/diminuir volume
 '''
-from desafio022 import modulo
+from modulo import ControleRemoto
 
-
+controle = ControleRemoto()
+controle.mostrarTv()
