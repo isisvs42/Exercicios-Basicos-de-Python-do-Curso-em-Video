@@ -11,7 +11,7 @@ class Funcionario():
         self.setor = setor
         self.cargo = cargo
 
-    def apresentacao(self):
+    def apresentacao(self) -> str:
         return f':waving_hand:Olá, sou [blue]{self.nome}[/] e eu sou {self.cargo} do setor {self.setor} da empresa'
 
 c1 = Funcionario('Maria', 'Administração', 'Diretora')
