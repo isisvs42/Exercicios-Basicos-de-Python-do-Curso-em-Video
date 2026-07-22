@@ -11,12 +11,15 @@ from rich import print
 from rich.panel import Panel
 
 class Churrasco():
+    consumo_padrao = 0.400
+    preco_quilo_padrao = 82.4
+
     def __init__(self, titulo, quantidade):
         self.titulo = titulo
         self.quantidade = quantidade
 
-        self.quilos_totais = quantidade * 400 / 1000
-        self.preco_por_pessoa = self.quilos_totais * 82.4 / quantidade
+        self.quilos_totais = quantidade * self.consumo_padrao
+        self.preco_por_pessoa = self.quilos_totais * self.preco_quilo_padrao / quantidade
 
     def analisar(self):
         analise = Panel(f'''
