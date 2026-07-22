@@ -21,7 +21,7 @@ class Churrasco():
     def analisar(self):
         analise = Panel(f'''
 Analisando [green]{self.titulo}[/] com [blue]{self.quantidade} convidados[/]
-Para comprar os [red]{self.quilos_totais}kg [/] necessários, cada pessoa deve pafar [red]R${self.preco_por_pessoa:,.2f}[/].
+Para comprar os [red]{self.quilos_totais}kg [/] necessários, cada pessoa deve pagar [red]R${self.preco_por_pessoa:,.2f}[/].
 ''', title=self.titulo)
         print(analise)
 
