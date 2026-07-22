@@ -18,8 +18,8 @@ class Churrasco():
         self.titulo = titulo
         self.quantidade = quantidade
 
-        self.quilos_totais = quantidade * self.consumo_padrao
-        self.preco_por_pessoa = self.quilos_totais * self.preco_quilo_padrao / quantidade
+        self.quilos_totais = quantidade * self.__class__.consumo_padrao
+        self.preco_por_pessoa = self.__class__.quilos_totais * self.preco_quilo_padrao / quantidade
 
     def analisar(self):
         analise = Panel(f'''
