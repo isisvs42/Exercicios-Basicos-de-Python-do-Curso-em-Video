@@ -28,5 +28,5 @@ Para comprar os [red]{self.quilos_totais}kg [/] necessários, cada pessoa deve p
 ''', title=self.titulo)
         print(analise)
 
-c1 = Churrasco("Não Aconselho ir nesse churrasco", 15)
+c1 = Churrasco("Não Aconselho a ir nesse churrasco", 15)
 c1.analisar()
